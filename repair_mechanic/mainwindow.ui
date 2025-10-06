@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>354</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="1" column="0">
+      <widget class="QLabel" name="FIO">
+       <property name="text">
+        <string>ФИО</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLineEdit" name="EnterFIO">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="Type">
+       <property name="text">
+        <string>тип устройства</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QComboBox" name="EnterType">
+       <item>
+        <property name="text">
+         <string>Пк</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Сматрфон</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="Syspected_cause_of_the_breakdown">
+       <property name="text">
+        <string>Предпологаемая причина поломки</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QTextEdit" name="Enter_Syspected_cause_of_the_breakdown"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="Send">
+       <property name="text">
+        <string>Отправить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
